@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:PhoneMusic" x:Class="PhoneMusic.MainPage">
+     <ContentPage.Padding>
+        <OnPlatform x:TypeArguments="Thickness">
+            <On Platform="iOS" Value="20, 40, 20, 20" />
+            <On Platform="Android, WinPhone, Windows" Value="20" />
+        </OnPlatform>
+    </ContentPage.Padding>                               
     <StackLayout>
         <!-- Place new controls here -->
+        <Label Text="Enter Track Details" />
+
         <Entry x:Name="Track_name" Text="Enter Track Name" />
         <Entry x:Name="Track_Genre" Text="Enter Track Genre" />
         <Entry x:Name="Track_Length" Text="Enter Track Length" />
         <Button x:Name="AddToDataBase" Text="Add to database" IsEnabled="false"/>
-        ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,dasdss
+
         
     </StackLayout>
 </ContentPage>
