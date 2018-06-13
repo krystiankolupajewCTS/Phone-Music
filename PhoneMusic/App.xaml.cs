@@ -11,7 +11,7 @@ namespace PhoneMusic
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new NewMain());
         }
 
         protected override void OnStart()
