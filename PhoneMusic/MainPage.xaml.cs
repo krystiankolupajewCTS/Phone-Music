@@ -19,7 +19,7 @@ namespace PhoneMusic
             if (true)
             {
 
-                DataBase_Button.Text = "Addded Text";
+                DataBase_Button.Text = "Added Text";
             }
         }
     }

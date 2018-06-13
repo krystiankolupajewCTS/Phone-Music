@@ -10,9 +10,12 @@
         <!-- Place new controls here -->
         <Label Text="Enter Track Details" />
 
-        <Entry x:Name="Track_name" Text="Enter Track Name" />
-        <Entry x:Name="Track_Genre" Text="Enter Track Genre" />
-        <Entry x:Name="Track_Length" Text="Enter Track Length" />
+        <Label Text="Enter Track Name:" />
+        <Entry x:Name="Track_name" Text="" />
+        <Label Text="Enter Track Genre:" />
+        <Entry x:Name="Track_Genre" Text="" />
+        <Label Text="Enter Track Length:" />
+        <Entry x:Name="Track_Length" Text="" />
         <Button x:Name="DataBase_Button" Text="Add to database" IsEnabled="true" Clicked="AddToTheDataBase"/>
 
         
