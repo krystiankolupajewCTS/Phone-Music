@@ -13,5 +13,14 @@ namespace PhoneMusic
         {
             InitializeComponent();
         }
+        void AddToTheDataBase(object sender, EventArgs e)
+        {
+
+            if (true)
+            {
+
+                DataBase_Button.Text = "Addded Text";
+            }
+        }
     }
 }
