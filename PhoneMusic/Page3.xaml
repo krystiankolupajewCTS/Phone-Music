@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PhoneMusic.NewMain">
-      <ContentPage.Padding>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PhoneMusic.Page3">
+   <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness">
             <On Platform="iOS" Value="20, 40, 20, 20" />
             <On Platform="Android, WinPhone, Windows" Value="20" />
@@ -10,8 +10,6 @@
                  HorizontalOptions="FillAndExpand"
                  Orientation="Vertical"
                  Spacing="15">
-    <Label Text="Press Button to continue" />
-    <Button x:Name="MainPage" Text="Continue" Clicked="NewDatabase" />
-    <Button x:Name="New_Page" Text="Page3" Clicked="NewPage" />
+    <Label Text="You have reached new page" />
     </StackLayout>
 </ContentPage>
