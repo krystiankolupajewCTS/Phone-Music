@@ -12,6 +12,6 @@
                  Spacing="15">
     <Label Text="Press Button to continue" />
     <Button x:Name="MainPage" Text="Continue" Clicked="NewDatabase" />
-    <Button x:Name="New_Page" Text="Page3" Clicked="NewPage" />
+    <Button x:Name="New_Page" Text="Next Page" Clicked="NewPage" />
     </StackLayout>
 </ContentPage>
