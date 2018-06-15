@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{6F79D495-FDC1-4328-89E5-6B07FF6B76A6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="PhoneMusic Status">
+    <Files>
+      <File FileName="PhoneMusic/App.xaml.cs" Line="14" Column="54" />
+      <File FileName="PhoneMusic/NavigationPage.xaml.cs" Line="16" Column="52" />
+      <File FileName="PhoneMusic/Database_Adder.xaml.cs" Line="26" Column="2" />
+      <File FileName="PhoneMusic/Database_Adder.xaml" Line="23" Column="15" />
+      <File FileName="PhoneMusic Status" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.PhoneMusic.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.1734AD67-6DB0-464F-A928-EB0DDBF0A699" automaticSigning="False" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.PhoneMusic.Android PreferredExecutionTarget="Android.SelectDevice" FirstBuild="True" />
+</Properties>

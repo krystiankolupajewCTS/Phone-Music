@@ -153,4 +153,7 @@
       <Name>PhoneMusic</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\Unknown.jpeg" />
+  </ItemGroup>
 </Project>
