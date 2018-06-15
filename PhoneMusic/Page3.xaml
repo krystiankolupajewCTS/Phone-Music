@@ -11,5 +11,8 @@
                  Orientation="Vertical"
                  Spacing="15">
     <Label Text="You have reached new page" />
+    <Label Text="press button to add new thing to database"/>
+    <Button x:Name="Data_Button" Text="Add to database" Clicked="Database_function"/>
+           
     </StackLayout>
 </ContentPage>

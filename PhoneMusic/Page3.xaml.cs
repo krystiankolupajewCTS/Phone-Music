@@ -11,5 +11,9 @@ namespace PhoneMusic
         {
             InitializeComponent();
         }
+        async void Database_function(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPage());
+        }
     }
 }
