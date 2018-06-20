@@ -134,8 +134,9 @@
       <Visible>false</Visible>
     </ImageAsset>
     <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
-    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Bartosz.png" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Bartosz APp.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Logo.png" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\bigger logo.png" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -154,6 +155,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\Unknown.jpeg" />
+    <BundleResource Include="Resources\bigger logo.png" />
   </ItemGroup>
 </Project>
