@@ -19,6 +19,10 @@ namespace PhoneMusic
         {
             await Navigation.PushAsync(new Page3());
         }
+        async void SearchP(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SearchPage());
+        }
                 
             
     }
