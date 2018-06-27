@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PhoneMusic.NewMain" BackgroundColor="Silver">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="PhoneMusic.NewMain" BackgroundColor="#45c0ec">
       <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness">
             <On Platform="iOS" Value="20, 40, 20, 20" />
@@ -12,8 +12,8 @@
                  Orientation="Vertical"
                  Spacing="15">
     <Label Text="Press Button to continue" />
-    <Button x:Name="MainPage" Text="Continue" Clicked="NewDatabase" />
-    <Button x:Name="New_Page" Text="Next Page" Clicked="NewPage" />
-    <Button x:Name="Search_Page" Text="Search_Page" Clicked="SearchP" />
+    <Button x:Name="MainPage" Text="Continue" BorderWidth=".2" BackgroundColor="#ec2121" Clicked="NewDatabase"  />
+    <Button x:Name="New_Page" Text="Next Page" BorderWidth=".2" BackgroundColor="#ec2121"  Clicked="NewPage" />
+    <Button x:Name="Search_Page" Text="Search_Page" BorderWidth=".2" BackgroundColor="#ec2121" Clicked="SearchP" />
     </StackLayout>
 </ContentPage>

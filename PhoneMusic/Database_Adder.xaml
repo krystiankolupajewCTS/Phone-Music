@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:PhoneMusic" x:Class="PhoneMusic.MainPage">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:PhoneMusic" BackgroundColor="#45c0ec"   x:Class="PhoneMusic.MainPage">
      <ContentPage.Padding>
         <OnPlatform x:TypeArguments="Thickness">
             <On Platform="iOS" Value="20, 40, 20, 20" />
@@ -16,7 +16,7 @@
         <Entry x:Name="Track_Genre" Text="" />
         <Label Text="Enter Track Length:" />
         <Entry x:Name="Track_Length" Text="" />
-        <Button x:Name="DataBase_Button" Text="Add to database" IsEnabled="true" Clicked="AddToTheDataBase"/>
+        <Button x:Name="DataBase_Button" Text="Add to database" IsEnabled="true" BorderWidth=".2" BackgroundColor="#ec2121" Clicked="AddToTheDataBase"/>
 
         
     </StackLayout>
