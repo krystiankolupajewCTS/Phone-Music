@@ -16,7 +16,7 @@
         <Entry x:Name="Track_Genre" Text="" />
         <Label Text="Enter Track Length:" />
         <Entry x:Name="Track_Length" Text="" />
-        <Button x:Name="DataBase_Button" Text="Add to database" IsEnabled="true" BorderWidth=".2" BackgroundColor="#ec2121" Clicked="AddToTheDataBase"/>
+        <Button x:Name="DataBase_Button" Text="Add to database" IsEnabled="true" TextColor="Navy" BorderWidth=".2" BackgroundColor="#ec2121" Clicked="AddToTheDataBase"/>
 
         
     </StackLayout>

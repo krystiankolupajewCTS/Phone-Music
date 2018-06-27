@@ -12,7 +12,7 @@
                  Spacing="15">
     <Label Text="You have reached new page" />
     <Label Text="press button to add new thing to database"/>
-    <Button x:Name="Data_Button" Text="Add to database" BorderWidth=".2" BackgroundColor="#ec2121" Clicked="Database_function"/>
+    <Button x:Name="Data_Button" Text="Add to database" TextColor="Navy" BorderWidth=".2" BackgroundColor="#ec2121" Clicked="Database_function"/>
            
     </StackLayout>
 </ContentPage>

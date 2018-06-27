@@ -12,6 +12,6 @@
                  Spacing="15">
     <Label Text="Enter the item you want to search for" />
     <Entry x:Name="Search_item" Text="" />
-    <Button x:Name="Submit_Button" Text="Submit" BorderWidth=".2" BackgroundColor="#ec2121" Clicked="Submit" />
+    <Button x:Name="Submit_Button" Text="Submit" TextColor="Navy" BorderWidth=".2" BackgroundColor="#ec2121" Clicked="Submit" />
     </StackLayout>
 </ContentPage>

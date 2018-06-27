@@ -12,8 +12,8 @@
                  Orientation="Vertical"
                  Spacing="15">
     <Label Text="Press Button to continue" />
-    <Button x:Name="MainPage" Text="Continue" BorderWidth=".2" BackgroundColor="#ec2121" Clicked="NewDatabase"  />
-    <Button x:Name="New_Page" Text="Next Page" BorderWidth=".2" BackgroundColor="#ec2121"  Clicked="NewPage" />
-    <Button x:Name="Search_Page" Text="Search_Page" BorderWidth=".2" BackgroundColor="#ec2121" Clicked="SearchP" />
+    <Button x:Name="MainPage" Text="Continue" TextColor="Navy" BorderWidth=".2" BackgroundColor="#ec2121" Clicked="NewDatabase"  />
+    <Button x:Name="New_Page" Text="Next Page" TextColor="Navy" BorderWidth=".2" BackgroundColor="#ec2121"  Clicked="NewPage" />
+    <Button x:Name="Search_Page" Text="SearchPage" TextColor="Navy" BorderWidth=".2" BackgroundColor="#ec2121" Clicked="SearchP" />
     </StackLayout>
 </ContentPage>
